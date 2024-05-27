@@ -3,6 +3,10 @@ version: '3.4'
 services:
   prueba:
     image: ${DOCKER_REGISTRY-}prueba
+    container_name: prueba
+    restart: always
     build:
       context: .
       dockerfile: prueba/Dockerfile
+    ports:
+      - "5003:80"
