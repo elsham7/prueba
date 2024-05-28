@@ -10,3 +10,7 @@ services:
       dockerfile: prueba/Dockerfile
     ports:
       - "5003:80"
+    volumes:
+      - ./certs:/etc/docker/certificado:ro
+    environment:
+      - ASPNETCORE_URLS=https://*:5003
