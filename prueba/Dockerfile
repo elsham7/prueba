@@ -19,7 +19,7 @@ RUN dotnet publish "./prueba.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:
 
 VOLUME /etc/docker
 
-ENV ASPNET_HTTPS_PORT=443
+ENV ASPNET_HTTPS_PORT=5003
 ENV ASPNET_HTTPS_KEY_FILE=/etc/aspnet/ssl/clave.pem
 ENV ASPNET_HTTPS_CERTIFICATE_FILE=/etc/aspnet/ssl/certificado.pem
 
