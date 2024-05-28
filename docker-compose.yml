@@ -14,6 +14,6 @@ services:
       - ./certs:/etc/docker/certificado:ro
     environment:
       - ASPNETCORE_URLS=https://*:5003
-      - DOTNET_SYSTEM_CERTIFICATE_FILE=/etc/docker/certificado/certificado.p12
+      - DOTNET_SYSTEM_CERTIFICATE_FILE=/etc/docker/certificado.p12
       - DOTNET_SYSTEM_CERTIFICATE_STORE=My
       - DOTNET_SYSTEM_CERTIFICATE_PASSWORD=Ecuador123
