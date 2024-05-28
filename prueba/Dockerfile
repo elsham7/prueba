@@ -17,6 +17,14 @@ FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "./prueba.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
+VOLUME /etc/docker/certificado
+COPY /etc/docker/certificado.p12 /usr/local/share/dotnet/store/mykeystore.p12
+ENV ASPNETCORE_URLS https://*:5003
+ENV DOTNET_USE_SYSTEM_CERTIFICATE=true
+ENV DOTNET_SYSTEM_CERTIFICATE_FILE=/usr/local/share/dotnet/store/mykeystore.p12
+ENV DOTNET_SYSTEM_CERTIFICATE_STORE=My
+ENV DOTNET_SYSTEM_CERTIFICATE_PASSWORD=Ecuador123
+
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
