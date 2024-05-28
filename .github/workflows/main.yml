@@ -14,7 +14,7 @@ jobs:
     - name: Docker Login
       env:
         USER: ${{secrets.USUARIO}}
-        PASS: Ecuador.123
+        PASS: ${{secrets.PASSWORD}
       run: docker login -u "$USER" -p "$PASS"
     - name: Build Images
       run: docker-compose build --no-cache
