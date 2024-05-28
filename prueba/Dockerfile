@@ -18,7 +18,12 @@ ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "./prueba.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 VOLUME /etc/docker
-COPY /etc/docker/certificado.p12 /usr/local/share/dotnet/store/mykeystore.p12
+
+ENV ASPNET_HTTPS_PORT=443
+ENV ASPNET_HTTPS_KEY_FILE=/etc/aspnet/ssl/clave.pem
+ENV ASPNET_HTTPS_CERTIFICATE_FILE=/etc/aspnet/ssl/certificado.pem
+
+#COPY /etc/docker/certificado.p12 /usr/local/share/dotnet/store/mykeystore.p12
 #ENV ASPNETCORE_URLS https://*:5003
 #ENV DOTNET_USE_SYSTEM_CERTIFICATE=true
 #ENV DOTNET_SYSTEM_CERTIFICATE_FILE=/usr/local/share/dotnet/store/mykeystore.p12
