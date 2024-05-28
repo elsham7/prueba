@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["prueba/prueba.csproj", "prueba/"]
 RUN dotnet restore "./prueba/prueba.csproj"
 COPY . .
-COPY ./certs/certificado.p12 /etc/docker/certificado.p12
+COPY ./certs/certificado.p12 /etc/docker/certificado/certificado.p12
 WORKDIR "/src/prueba"
 RUN dotnet build "./prueba.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
