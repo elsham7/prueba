@@ -1,86 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\fuentes\\prueba\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B38798-158B-42FF-ABE9-183364D65B72}|prueba\\prueba.csproj|c:\\fuentes\\prueba\\prueba\\.github\\workflows\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2B38798-158B-42FF-ABE9-183364D65B72}|prueba\\prueba.csproj|solutionrelative:prueba\\.github\\workflows\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A508B15D-3301-42C8-AE22-B33C2CE87C5E}|docker-compose.dcproj|c:\\fuentes\\prueba\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A508B15D-3301-42C8-AE22-B33C2CE87C5E}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B38798-158B-42FF-ABE9-183364D65B72}|prueba\\prueba.csproj|c:\\fuentes\\prueba\\prueba\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2B38798-158B-42FF-ABE9-183364D65B72}|prueba\\prueba.csproj|solutionrelative:prueba\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B38798-158B-42FF-ABE9-183364D65B72}|prueba\\prueba.csproj|c:\\fuentes\\prueba\\prueba\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B38798-158B-42FF-ABE9-183364D65B72}|prueba\\prueba.csproj|solutionrelative:prueba\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\fuentes\\prueba\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\fuentes\\prueba\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-05-27T17:30:59.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.yml",
-              "DocumentMoniker": "C:\\fuentes\\prueba\\prueba\\.github\\workflows\\main.yml",
-              "RelativeDocumentMoniker": "prueba\\.github\\workflows\\main.yml",
-              "ToolTip": "C:\\fuentes\\prueba\\prueba\\.github\\workflows\\main.yml",
-              "RelativeToolTip": "prueba\\.github\\workflows\\main.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-05-27T17:17:28.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\fuentes\\prueba\\prueba\\Dockerfile",
-              "RelativeDocumentMoniker": "prueba\\Dockerfile",
-              "ToolTip": "C:\\fuentes\\prueba\\prueba\\Dockerfile",
-              "RelativeToolTip": "prueba\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-27T16:56:15.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\fuentes\\prueba\\prueba\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "prueba\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\fuentes\\prueba\\prueba\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "prueba\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T16:55:28.067Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
