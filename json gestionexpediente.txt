@@ -1,0 +1,32 @@
+{
+  "opcion":"C",
+  "idPersona":"8816054",
+  "idExpediente":"21026778",
+  "imagenFirma":"",
+  "idTipoNovedades":"35321",
+  "IdCatNovedad":"270",
+  "strUsuario":"jyanez"
+}
+
+  "traceid": "0hnbaeooa4g18",
+    "data": {
+        "idPersona": null,
+        "efi_ImagenFirma": null,
+        "idCatNovedades": null,
+        "idTipoNovedades": null,
+        "descTipoNovedades": null,
+        "numIdentificacion": null,
+        "idCatTipoIdentificacion": null,
+        "idTipoIdentificacion": null,
+        "soloApellidos": null,
+        "soloNombres": null,
+        "nombreCompleto": null,
+        "idTipoIdentificacionDesc": null,
+        "idTipoIdentificacionHost": null,
+        "idTipoFirmante": null,
+        "idTipoFirmanteDesc": null,
+        "idTipoEstado": null,
+        "idTipoEstadoDesc": null,
+        "interventor": null
+    }
+}

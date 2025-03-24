@@ -1,0 +1,21 @@
+{'CODIGO':'1','MENSAJE':'La Transaccion con Datos','Table':'{
+        "idPersona": "8816054",
+        "Efi_ImagenFirma": "",
+        "IdCatNovedades": "270",
+        "IdTipoNovedades": "35321",
+        "descTipoNovedades": "Aprobado",
+        "numIdentificacion": "0920577434",
+        "idCatTipoIdentificacion": "40",
+        "idTipoIdentificacion": "525",
+        "soloApellidos": "FERNANDEZ ASSAN",
+        "soloNombres": "VANESSA DEL ROCIO",
+        "nombreCompleto": "FERNANDEZ ASSAN VANESSA DEL ROCIO",
+        "idTipoIdentificacionDesc": "Cedula de identidad",
+        "idTipoIdentificacionHost": "C",
+        "idTipoFirmante": "3156",
+        "idTipoFirmanteDesc": "FIRMA AUTORIZADA",
+        "idTipoEstado": "35326",
+        "idTipoEstadoDesc": "Activo",
+        "Interventor": "false"
+    }'
+}
